@@ -1,0 +1,222 @@
+.servieces {
+  display: flex;
+  column-gap: 50px;
+  row-gap: 50px;
+  flex-wrap: wrap;
+  margin-left: 12%;
+}
+.serviec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 16px;
+  max-width: 268px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+.serviec > img {
+  width: 100px;
+  height: 76px;
+}
+.serviec > span:nth-of-type(1) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 16px;
+}
+.serviec > span:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  padding: 0 32px 24px;
+}
+.serviec > div {
+  position: relative;
+}
+.serviec > div > button,
+.buttonask {
+  background: #1e1e2d;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  padding: 9px 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.serviecDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 48px 60px 40px 48px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.serviecDetails > div {
+  display: flex;
+  column-gap: 60px;
+}
+.serviecDetails > div > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.serviecDetails > div > div > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+}
+.serviecDetails > div > div > span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px 40px;
+  background-color: #ffffff;
+  margin: 20px 125px 20px;
+}
+.form > div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 120px;
+  margin-bottom: 30px;
+}
+.form > div > label,
+.form > section > label {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+.form > div > input,
+.formAddServiec > div > div > input {
+  background: #ededed;
+  border-radius: 8px;
+  color: #5a5a5a;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 8px 24px;
+  border: none;
+  outline: none;
+}
+.form-group > .custom-select {
+  width: 260px;
+  height: 40px;
+  border-radius: 8px;
+  color: #5a5a5a;
+  background: #ededed;
+}
+.form-group > div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 260px;
+  background-color: #ededed;
+  border-radius: 8px;
+  color: #5a5a5a;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 8px 24px;
+}
+.form-group > div > input {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  opacity: 0;
+}
+.form > section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 120px;
+  padding-right: 120px;
+  row-gap: 16px;
+}
+.form > section > textarea,
+.formAddServiec > div > textarea,
+.serviecDetails > div > div > textarea {
+  width: 100%;
+  background: #ededed;
+  border-radius: 8px;
+  color: #5a5a5a;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 8px 24px;
+  border: none;
+  outline: none;
+  resize: none;
+  margin-bottom: 30px;
+
+}
+.form > button {
+  background: #1e1e2d;
+  border-radius: 8px;
+  padding: 10px 48px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.div-services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+.div-services > span {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 22px;
+}
+.formAddServiec {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 40px 125px 50px 40px;
+  margin-top: 30px;
+}
+.formAddServiec > div:nth-of-type(1) {
+  display: flex;
+  column-gap: 100px;
+}
+.formAddServiec > div > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.formAddServiec > div > div > span,
+.formAddServiec > div:nth-of-type(2) > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 12px;
+}
+.formAddServiec > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.formAddServiec > div:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+}

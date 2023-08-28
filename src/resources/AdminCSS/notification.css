@@ -1,0 +1,58 @@
+.section-notif {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.section-notif > span:nth-of-type(1) {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 22px;
+}
+.divTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.divTop > span:nth-of-type(1),
+.section-notif > span:nth-of-type(2) {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 20px;
+}
+.divTop > span:nth-of-type(2) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.div-notf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+.div-notf > img {
+  margin: 16px 0px 16px 32px;
+}
+.div-notf > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  margin-left: -240px;
+}
+.div-notf > div > span:nth-of-type(1) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.div-notf > div > span:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #505050;
+}

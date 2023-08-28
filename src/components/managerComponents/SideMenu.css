@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  font-family: "Cairo", sans-serif;
+  box-sizing: border-box;
+}
+.aside-column {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 240px;
+  transition: all 0.5s ease;
+  padding: 49px 0px 71px 40px;
+  font-size: 16px;
+  background-color: #1e1e2d;
+}
+
+.aside-column > img {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 97px;
+  top: 32px;
+  border-radius: 50%;
+}
+.aside-column > span {
+  color: #ffffff;
+  position: absolute;
+  width: 133px;
+  height: 22px;
+  left: 63px;
+  top: 120px;
+}
+.aside-column > hr {
+  position: absolute;
+  width: 180px;
+  height: 0px;
+  top: 174px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.nav {
+  padding: 0px;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.nav > li {
+  list-style: none;
+  padding: 12px 0px 12px 0px;
+}
+
+.nav > li > i,
+.nav > li > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+.nav > li > a > span {
+  padding-left: 15px;
+  color: #ffffff;
+  /* width: 122px; */
+}
+
+.sidebar {
+  width: 122px;
+  /* height: 21px; */
+  background-color: transparent;
+  /* padding: 10px; */
+}
+.sidebar > div {
+  display: flex;
+  height: 21px;
+  align-items: center;
+}
+.dropdown-toggle {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: #ffffff;
+  padding-left: 15px;
+  font-size: 1em;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.dropdown-menu li {
+  padding-left: 30px;
+  cursor: pointer;
+}
+.dropdown-menu li a {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}

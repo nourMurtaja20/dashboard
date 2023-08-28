@@ -1,0 +1,186 @@
+.freelancerProfileContent {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 1088px;
+  margin-top: 22px;
+}
+.freelancerProfileContent > div {
+  display: flex;
+  flex-direction: row;
+  margin: 42px 48px 0px 42px;
+  column-gap: 48px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ededed;
+}
+.freelancerProfileContent > div > img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+.freelancerProfileContent > div:nth-child(1) > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.freelancerProfileContent > div > div > span:nth-of-type(1) {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.freelancerProfileContent > div > div > span:nth-of-type(2) {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.freelancerProfileContent > div > div > span:nth-of-type(3) {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.freelancerProfileContent > div:nth-child(1) > div > div {
+  display: flex;
+  column-gap: 20px;
+}
+.freelancerProfileContent > div:nth-child(2) {
+  column-gap: 100px;
+}
+.freelancerProfileContent > div:nth-child(2) > div > span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+}
+.freelancerProfileContent > div:nth-child(2) > div > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  width: 245px;
+  margin-bottom: 30px;
+}
+.freelancerProfileContent > div:nth-child(2) > div > div {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+}
+.freelancerProfileContent > div:nth-child(2) > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0px;
+}
+.freelancerProfileContent > div:nth-child(2) > div:nth-child(2) > text,
+.freelancerProfileContent > div:nth-child(2) > div:nth-child(2) > ul > li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+}
+.label-file {
+  display: flex;
+  border: 1px solid #b4b6c4;
+  border-radius: 50%;
+  color: #000000;
+  font-size: 18px;
+  margin-left: 80px;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  /* background-image: url('/client/src/resources/images/Ellipse\ 15.png'); */
+}
+label > i {
+  border: 1px solid #b4b6c4;
+  color: #b4b6c4;
+  border-radius: 6px;
+}
+label > input {
+  /* display: none; */
+}
+.div-colum {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.div-colum > input,
+.freelancerProfileContent > section > div > input,
+.hiretalent > div > input,
+.hiretalent > input {
+  background: #ededed;
+  border-radius: 8px;
+  color: #5a5a5a;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 8px 24px;
+  border: none;
+  outline: none;
+}
+.hiretalent > input,
+.hiretalent > textarea {
+  width: 60%;
+}
+.freelancerProfileContent > section {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+  margin: 42px 48px 0px 42px;
+}
+.freelancerProfileContent > section > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.freelancerProfileContent > section > div > textarea,
+.hiretalent > textarea {
+  background: #ededed;
+  border-radius: 8px;
+  color: #5a5a5a;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 8px 24px;
+  border: none;
+  outline: none;
+  resize: none;
+  margin-bottom: 30px;
+}
+.hiretalent {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 8px;
+  padding-top: 40px;
+  padding-left: 60px;
+  margin-top: 22px;
+  row-gap: 16px;
+}
+.hiretalent > span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.hiretalent > div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+}
+.hiretalent > div > div {
+  width: 260px;
+  height: 40px;
+}
+.hiretalent > div:last-of-type {
+  display: flex;
+  justify-content: center;
+}
+.label-file-template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ededed;
+  border-radius: 8px;
+  padding: 45px 200px;
+  color: #808080;
+
+}

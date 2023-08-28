@@ -1,0 +1,41 @@
+.noteType {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  color: #040404;
+}
+.table {
+  background: #ffffff;
+  border-radius: 8px;
+  border-collapse: collapse;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.table > thead > tr > th {
+  height: 48px;
+  width: 10%;
+  vertical-align: inherit;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.table > tbody > tr > td {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  height: 64px;
+}
+.divnodata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divnodata > p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 18px;
+  color: #505050;
+}

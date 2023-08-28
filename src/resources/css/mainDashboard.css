@@ -1,0 +1,41 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+.mainTitle {
+  margin-top: 55px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 22px;
+  color: #040404;
+}
+.div_chart {
+  display: flex;
+  column-gap: 20px;
+}
+.OnlineServices {
+  padding-top: 24px;
+  flex: 1;
+  height: 350px;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.OnlineServices > span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  padding-left: 24px;
+}
+.divcolor {
+  padding-left: 37px;
+  margin-bottom: 5px;
+}
+.divcolor > span {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.ProjectProgress {
+  margin-top: 50px;
+}

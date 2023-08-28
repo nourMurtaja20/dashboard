@@ -1,0 +1,231 @@
+.accountContent {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 1088px;
+  margin-top: 22px;
+}
+.div-top {
+  display: flex;
+  padding: 60px 10px 55px 100px;
+}
+.div-top-col {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-right: 20%;
+}
+.div-top > img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+.div-top-col > span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.div-top-col > div {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.div-top-col > div > span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.div-top-col > div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.div-top-border {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  border-radius: 8px;
+  height: 101px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  border: 1px solid #ededed;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.div-tab-content {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+  margin-left: 90px;
+  flex: 1;
+}
+.div-tab-content > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.div-tab-edit {
+  display: flex;
+  flex-direction: column;
+  row-gap: 42px;
+}
+.div-tab-content2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  /* margin-left: 90px; */
+  flex: 1;
+}
+.div-tab-content2 > section {
+  display: flex;
+  flex-direction: row;
+  /* column-gap: 147px; */
+}
+.div-tab-content2 > section > textarea {
+  background: #ededed;
+  border-radius: 8px;
+  color: #5a5a5a;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 8px 24px;
+  border: none;
+  outline: none;
+  resize: none;
+  /* margin-bottom: 30px; */
+}
+.div-tab-content2 > section:nth-of-type(1) > span {
+  margin-right: 30%;
+}
+.div-tab-content2 > section:nth-of-type(2) > span {
+  margin-right: 21%;
+}
+.div-tab-content2 > section:nth-of-type(3) > span {
+  margin-right: 15%;
+}
+.div-tab-content2 > section:nth-of-type(4) > span {
+  margin-right: 23%;
+}
+.Certificates {
+  margin-right: 14%;
+}
+.div-tab-content > div:nth-of-type(1) > span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.div-tab-content > div:nth-of-type(2) > span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #505050;
+}
+.div-bottom > button:nth-of-type(1),
+.save-seeting {
+  background: #1e1e2d;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  border: none;
+  padding: 10px 30px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.save-seeting {
+  background: #1e1e2d;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  border: none;
+  padding: 10px 30px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 33%;
+  margin-top: 20px;
+}
+.div-bottom > button:nth-of-type(2) {
+  background: #ff0000;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  border: none;
+  padding: 10px 30px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.div-bottom {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  margin-top: 40px;
+}
+.div-billing {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-left: 90px;
+}
+.div-billing > span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+.div-billing > button {
+  border-radius: 8px;
+  border: 1px solid #14a800;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #14a800;
+  background-color: #ffffff;
+  width: 271px;
+  height: 48px;
+  cursor: pointer;
+}
+.formSecurity {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.divSecurity {
+  display: flex;
+  flex-direction: column;
+  row-gap: 46px;
+}
+.formSecurity > input,
+.div-tab-content > div > input,
+.div-tab-content2 > section > input {
+  background: #ededed;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 9px 24px;
+  color: #5a5a5a;
+}
+.label-file {
+  display: flex;
+  border: 1px solid #b4b6c4;
+  border-radius: 6px;
+  color: #000000;
+  font-size: 18px;
+  padding: 37px;
+  margin-left: 80px;
+  justify-content: center;
+}
+label > i {
+  border: 1px solid #b4b6c4;
+  color: #b4b6c4;
+  border-radius: 6px;
+}
+/* label > input {
+  display: none;
+} */

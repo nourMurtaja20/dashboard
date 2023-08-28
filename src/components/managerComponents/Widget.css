@@ -1,0 +1,65 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding: 25px;
+  height: 100px;
+  width: 308px;
+  height: 174px;
+  background: #1e1e2d;
+  border-radius: 16px;
+  color: #fff;
+margin-top: 50px;
+}
+.top,
+.mid,
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.counter {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.link {
+  width: max-content;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.percentage {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: "white";
+  text-align: left;
+}
+.widgets {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
